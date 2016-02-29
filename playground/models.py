@@ -10,3 +10,6 @@ class Person(object):
     def age(self):
         age = date.today().year - self.year_of_birth
         return age
+
+    def upper_name(self):
+        return self.name.upper()
