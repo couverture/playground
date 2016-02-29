@@ -1,3 +1,6 @@
+from datetime import date
+
+
 class Person(object):
     def __init__(self, name, year_of_birth):
         self.name = name
@@ -5,4 +8,5 @@ class Person(object):
 
     @property
     def age(self):
-        return date.today().year - self.year_of_birth
+        age = date.today().year - self.year_of_birth
+        return age
