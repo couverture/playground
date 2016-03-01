@@ -10,6 +10,6 @@ def test_person_age():
 
 
 def test_person_upper_name():
-    from plauground.models import Person
+    from playground.models import Person
     person = Person("muzzy", 1980)
     assert person.upper_name() == 'MUZZY'
