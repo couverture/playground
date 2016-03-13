@@ -13,3 +13,6 @@ class Person(object):
 
     def upper_name(self):
         return self.name.upper()
+
+    def lower_name(self):
+        return self.name.lower()
